@@ -2,6 +2,7 @@
 
 import debug
 
+# 
 
 class Impact(object):
     def __init__(self, statement):
