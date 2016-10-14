@@ -13,6 +13,10 @@ assumption_level = _AssumptionLevel()
 def set_outputs():
     """ Builds the logical framework object heirarchy. """
 
+
+
+
+
     # Creating output 1 ######################################################
     output1 = Output(1, 'Macro-fiscal analysis is comprehensive in scope and is communicated in a timely manner to senior management.', 2)
 
@@ -45,6 +49,9 @@ def set_outputs():
     output1.add_assumption(assumption1_7)
     output1.add_assumption(assumption1_8)
     lf.add_output(output1)
+
+
+
 
     # Creating output 2 ######################################################
     output2 = Output(2, 'Key reforms are implemented in the Budget Department allowing allocation of resources in line with the Government priorities and effective service delivery.', 5)
@@ -113,6 +120,9 @@ def set_outputs():
     output2.add_assumption(assumption2_16)
     lf.add_output(output2)
 
+
+
+
     # Creating output 3 ######################################################
     output3 = Output(3, 'Strengthened institutional tools, systems and processes for better management of budget execution and cash management.', 2)
     indicator3_1 = Indicator(3.1,
@@ -127,9 +137,15 @@ def set_outputs():
     output3.add_indicator(indicator3_2)
     lf.add_output(output3)
 
+
+
+
     # Creating output 4 ######################################################
     output4 = Output(4, 'Increased capacity of GIRoA to manage aid effectively and efficiently.', 2)
     lf.add_output(output4)
+
+
+
 
     # Creating output 5 ######################################################
     output5 = Output(5, 'Government planning and performance monitoring systems strengthened to enable improved national budget efficiency and effectiveness.', 2)
