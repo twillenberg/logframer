@@ -13,10 +13,6 @@ assumption_level = _AssumptionLevel()
 def set_outputs():
     """ Builds the logical framework object heirarchy. """
 
-
-
-
-
     # Creating output 1 ######################################################
     output1 = Output(1, 'Macro-fiscal analysis is comprehensive in scope and is communicated in a timely manner to senior management.', 2)
 
