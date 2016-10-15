@@ -1,4 +1,3 @@
-
 from logicalframework import LogicalFramework
 from output import Output
 from indicator import Indicator
@@ -215,4 +214,4 @@ class MainPage(webapp2.RequestHandler):
 
         ctrler.display
 
-app = webapp2.WSGIApplication([('/logframe', Controller),], debug=True)
+app = webapp2.WSGIApplication([('/', MainPage),], debug=True)
